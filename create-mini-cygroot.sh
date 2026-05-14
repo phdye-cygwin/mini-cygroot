@@ -2,6 +2,8 @@
 #
 # create-mini-cygroot.sh
 #
+# Canonical source: https://github.com/phdye-cygwin/mini-cygroot
+#
 # Generate a comprehensive mini-cygroot skeleton at an arbitrary directory
 # on a Windows host running Cygwin 1.7+.  Idempotent: re-running is safe.
 #
@@ -9,9 +11,8 @@
 # the variant DLL under test and launch via a non-Cygwin parent process
 # (cmd.exe, PowerShell, Windows service) with stdio redirected.
 #
-# See the companion document for mechanism, launcher rules, and
-# verification recipes:
-#   https://gist.github.com/phdye/7921d26c0f7b8cb17d308a384a75518c
+# Full procedure, mechanism, launcher rules, and verification recipes
+# are in the repository README.
 
 set -euo pipefail
 

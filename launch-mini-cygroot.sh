@@ -2,6 +2,8 @@
 #
 # launch-mini-cygroot.sh
 #
+# Canonical source: https://github.com/phdye-cygwin/mini-cygroot
+#
 # Launch a command inside a mini-cygroot via PowerShell, ensuring the
 # variant cygwin1.dll loads under a non-Cygwin parent process.
 #
@@ -12,7 +14,7 @@
 #           -> the user command
 #
 # Stdio is redirected to disk to avoid the PowerShell -NoNewWindow stall
-# documented in the mini-cygroot gist.
+# documented in the README.
 
 set -euo pipefail
 

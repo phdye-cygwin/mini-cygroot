@@ -1,5 +1,6 @@
 # Mini-Cygroot: Procedure for Side-by-Side Cygwin Installations Used in Testing Alternate `cygwin1.dll` Builds
 
+Canonical source: <https://github.com/phdye-cygwin/mini-cygroot>
 Verified-Against: Cygwin 3.6.7 (`upstream-main/winsup/cygwin/`).
 Test-Platform: Windows 11.
 
