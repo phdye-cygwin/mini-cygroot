@@ -1,0 +1,23 @@
+# Canonical repo hygiene attributes.
+# Copied into every `git init` via init.templateDir = ~/.git-template.
+
+# LF in repo for all text; platform-appropriate on checkout
+* text=auto eol=lf
+*.rs   text eol=lf
+*.toml text eol=lf
+*.md   text eol=lf
+*.h    text eol=lf
+*.json text eol=lf
+*.sh   text eol=lf
+
+# Windows scripts: CRLF required
+*.ps1  text eol=crlf
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.inf  text eol=crlf
+
+# Binaries: no conversion
+*.sys binary
+*.exe binary
+*.dll binary
+*.pdb binary
